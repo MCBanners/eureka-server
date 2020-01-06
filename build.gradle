@@ -15,6 +15,10 @@ configurations {
 	}
 }
 
+bootJar {
+	archiveFileName = "eureka-server.jar"
+}
+
 repositories {
 	mavenCentral()
 }
