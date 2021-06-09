@@ -16,7 +16,7 @@ configurations {
 }
 
 bootJar {
-	archiveFileName = "eureka-server.jar"
+	archiveFileName = "eureka.jar"
 }
 
 repositories {
