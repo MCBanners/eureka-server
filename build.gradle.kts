@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-	implementation(platform("org.springframework.cloud:spring-cloud-dependencies:2022.0.4"))
+	implementation(platform("org.springframework.cloud:spring-cloud-dependencies:2023.0.0"))
 
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server")
