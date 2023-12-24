@@ -1,6 +1,7 @@
 plugins {
-	id("org.springframework.boot") version "3.1.5"
-	id("io.spring.dependency-management") version "1.1.3"
+	id("org.springframework.boot") version "3.2.1"
+	id("io.spring.dependency-management") version "1.1.4"
+	id("com.github.ben-manes.versions") version "0.50.0"
 	id("java")
 }
 
@@ -18,7 +19,7 @@ repositories {
 }
 
 dependencies {
-	implementation(platform("org.springframework.cloud:spring-cloud-dependencies:2022.0.4"))
+	implementation(platform("org.springframework.cloud:spring-cloud-dependencies:2023.0.0"))
 
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server")
